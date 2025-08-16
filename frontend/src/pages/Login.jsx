@@ -27,6 +27,7 @@ const Login = () => {
           type="email"
           placeholder="Email"
           value={formData.email}
+          autoComplete="off"
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           className="w-full mb-4 p-2 border rounded"
         />
@@ -34,6 +35,7 @@ const Login = () => {
           type="password"
           placeholder="Password"
           value={formData.password}
+           autoComplete="off"
           onChange={(e) => setFormData({ ...formData, password: e.target.value })}
           className="w-full mb-4 p-2 border rounded"
         />
