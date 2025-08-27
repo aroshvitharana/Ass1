@@ -145,10 +145,11 @@ sudo nano /etc/nginx/sites-available/default ->
       $proxy_add_x_forwarded_for;  
    }  
 sudo service nginx restart all  
-pm2 restart all  
+pm2 restart all  (adding a test process) 
 change base url in axiosConfig.js to public url of instance  
 
 9. Access your application -> http://<Public ID>  
+
 
 
 *Jira Dashbaord Link*: https://aroshvitharana1234.atlassian.net/jira/software/projects/DRB/boards/34?atlOrigin=eyJpIjoiMzhlMTZkNWQyNzVmNDRjY2FmMWFkNTI0YTI3NDRlMTMiLCJwIjoiaiJ9
